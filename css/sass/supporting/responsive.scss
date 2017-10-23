@@ -1,0 +1,71 @@
+@media (max-width: 960px) {
+	body .carousel-caption {
+	    right: 10% !important;
+	}
+}
+
+
+@media (max-width: 1024px) {
+	#wrapper {
+		#sidebar-wrapper {
+			padding-top: 0px;
+			position: initial;
+			right: initial;
+			height: initial;
+			margin-right: 0;
+			top: initial;
+			width: 100%;
+			margin-top: 73px;
+			padding:40px 0;
+			&:before{
+				height: auto;
+			}
+		}
+		#page-content-wrapper{
+			position: relative;
+
+		}	
+	}	
+	body .carousel-caption {
+	    top: 0% !important;
+	}
+	body #myCarousel{
+		margin-top: 0;
+	}
+	.servicios>section>div, .especialistas>section>div, .formulario>section>div {
+    	padding: 10% 5%;
+	}
+	#sidebar-wrapper .container-post{
+		padding-left: 10%;
+	}
+	.media>section>div{
+		padding:5%;
+	}
+	.card-video{
+		clear: left;
+	}
+	ol.carousel-indicators {
+		position: relative;
+   		margin-top: 20px;
+    	left:45% !important;
+	}
+	.animation-element{
+	    width: 100%;
+	}
+	.navbar-nav>li {
+	    padding: 10px 5px;
+	}
+	body .navbar .navbar-collapse{
+		padding-right: 10px;
+	}
+	.blog-post{
+		padding-left: initial;
+		padding-right: initial;
+		padding-top:40px;
+		padding-bottom:40px;
+		&:first-child{
+			margin-top: 0;
+		}
+	}
+
+}

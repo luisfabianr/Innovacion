@@ -1,0 +1,75 @@
+.servicios,
+.especialistas, .formulario{
+	width: 100%; 
+	height: 100%;
+	> section{
+		width: 100%;
+		height: 100%;
+		&.animation-element {
+		    position: relative;
+		    float: left;
+		}
+		> div{
+			padding: 10% 10%;
+			overflow: hidden;
+			color: white;
+			h1{
+				clear: left;
+				margin-bottom: 50px;
+				margin-top: 0;
+				&:after{
+					content: '';
+					width: 100px;
+					height: 1px;
+					background:white;
+				    position: absolute;
+				    bottom: -40px;
+    				left: 15px;
+				}
+				&.inverse{
+					color:$brand-primary-dark !important;
+					&:after{
+						content: '';
+						width: 100px;
+						height: 1px;
+						background:$brand-primary-dark;
+					    position: absolute;
+					    bottom: -40px;
+	    				left: 15px;
+					}
+				}
+				span{
+					font-weight: 700;
+				}
+			}
+			h2{
+				margin-top: 0;
+				font-family: $font-family-sans-serif;
+				font-weight: 300;
+				span{
+					font-weight: 600;
+
+				}
+				&.inverse{
+					color:$brand-primary-dark !important;
+				}
+			}
+			h5{
+				font-style: italic;
+				&.inverse{
+					color: $brand-grey-dark;
+				}
+			}
+			p{
+				font-size: 16px;
+				&.inverse{
+					color: $brand-grey-dark;
+				}
+			}
+
+		}
+	}
+}		
+
+		#services { background-color: #eb7e7f; }
+		#contact { background-color: #415c71;}

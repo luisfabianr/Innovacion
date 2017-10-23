@@ -1,0 +1,59 @@
+#myCarousel{
+	margin-top:74px;
+	.carousel-inner{
+		.item{
+			&.only-texty{
+				min-height: 432px;
+				background: $brand-grey;
+				.carousel-caption {
+				    left: 10%;
+				    right: 40%;
+				    top: 10%;
+					h1{
+						color:$brand-primary-dark;
+						text-align: left;
+						text-shadow: none;
+						line-height: 1;
+						span{
+							font-weight: 700;
+						}
+					}
+					p{
+						font-style: italic;
+						font-size: 15px;
+						color:$brand-grey-dark;
+						text-shadow: none;
+						text-align: left;
+						margin-top: 40px;
+						position: relative;
+						&:after{
+							content: '';
+							width: 100px;
+							height: 1px;
+							background:$gray-light;
+							top: -10px;
+						    left: 0;
+						    position: absolute;
+						}
+					}
+					.btn{
+						margin-top: 20px;
+						margin-bottom: 10px;
+					}
+				}
+			}
+		}
+	}
+	.carousel-indicators{
+		left: 12%;
+		li{
+		 	border: 1px solid  $brand-primary;
+			width: 16px;
+		    height: 16px;
+			&.active{
+			    background-color: $brand-primary;
+			}
+			
+		}
+	}
+}
